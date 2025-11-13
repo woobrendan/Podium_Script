@@ -1,0 +1,62 @@
+[
+	{
+		"team": "BSI Racing",
+		"driver1firstName": "Julian",
+		"driver1lastName": "DeCosta",
+		"driver1category": "N/A",
+		"driver1nationality": "USA",
+		"car": "Toyota GR86",
+		"manufacturer": "Toyota",
+		"class": "Am",
+		"number": "78",
+		"series": "Toyota GR Cup",
+		"year": 2024,
+		"created": "2024-05-09T15:35:36Z",
+		"event": "FULL SEASON ENTRY"
+	},
+	{
+		"team": "BSI Racing",
+		"driver1firstName": "Jordan",
+		"driver1lastName": "RickSegrini",
+		"driver1category": "N/A",
+		"driver1nationality": "USA",
+		"car": "Toyota GR86",
+		"manufacturer": "Toyota",
+		"class": "Am",
+		"number": "18",
+		"series": "Toyota GR Cup",
+		"year": 2024,
+		"created": "2024-05-09T15:35:36Z",
+		"event": "FULL SEASON ENTRY"
+	},
+	{
+		"team": "Hattori Motorsports",
+		"driver1firstName": "Miki Onaga",
+		"driver1lastName": "Hewitt",
+		"driver1category": "N/A",
+		"driver1nationality": "USA",
+		"car": "Toyota GR86",
+		"manufacturer": "Toyota",
+		"class": "Am",
+		"number": "75",
+		"series": "Toyota GR Cup",
+		"year": 2024,
+		"created": "2024-05-09T15:35:36Z",
+		"event": "FULL SEASON ENTRY"
+	},
+	{
+		"team": "TechSport Racing",
+		"driver1firstName": "Ayden",
+		"driver1lastName": "Kirk",
+		"driver1category": "N/A",
+		"driver1nationality": "USA",
+		"car": "Toyota GR86",
+		"manufacturer": "Toyota",
+		"class": "Am",
+		"number": "47",
+		"series": "Toyota GR Cup",
+		"year": 2024,
+		"created": "2024-05-09T15:35:36Z",
+		"event": "FULL SEASON ENTRY"
+	}
+]

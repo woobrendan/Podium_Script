@@ -1,0 +1,21 @@
+[
+	{
+		"team": "AERO B Motorsports",
+		"driver1firstName": "Joe",
+		"driver1lastName": "Osborne",
+		"driver1category": "Bronze",
+		"driver1nationality": "USA",
+		"driver2firstName": "Jason",
+		"driver2lastName": "Guzman",
+		"driver2category": "Silver",
+		"drivernationality": "USA",
+		"car": "McLaren Artura Trophy EVO",
+		"manufacturer": "McLaren",
+		"class": "Pro",
+		"number": "52",
+		"series": "McLaren Trophy",
+		"year": 2025,
+		"created": "2025-05-047T15:35:36Z",
+		"event": "FULL SEASON ENTRY"
+	}
+]

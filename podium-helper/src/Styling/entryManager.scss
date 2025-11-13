@@ -1,0 +1,131 @@
+#entry_manager {
+    .entryManager_filter_container {
+        display: flex;
+        justify-content: space-around;
+        margin: 3%;
+
+        .event_dropdown {
+            min-width: 150px;
+        }
+
+        .series_dropdown {
+            min-width: 200px;
+            width: 25%;
+        }
+
+        .entryManager__search {
+            min-width: 400px;
+        }
+    }
+
+    #entryManager_table {
+        display: flex;
+        justify-content: center;
+
+        .MuiTableHead-root {
+            background-color: #282828;
+
+            .MuiTableCell-root {
+                color: red;
+            }
+        }
+    }
+}
+
+#addEntry_modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 70%;
+    min-height: 350px;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+    background-color: red;
+    color: white;
+
+    input {
+        font-size: large;
+    }
+
+    select {
+        min-height: 30px;
+        font-size: large;
+    }
+
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+
+        &#dropdown_class, &#dropdown_fia, &#dropdown_vehicle {
+            min-width: 10%;
+        }
+    }
+
+    .series_dropdown {
+        min-width: 200px;
+        width: 25%;
+    }
+
+    .MuiFormLabel-root,
+    .MuiSelect-select {
+        color: white;
+    }
+
+    .input_vehicle_container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .editModal_input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .drivers_1 {
+        width: 100%;
+
+        .input_driver_container_1 {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    .drivers_2 {
+        section {
+            min-width: 30%;
+        }
+    }
+
+    .drivers_2,
+    .drivers_3 {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 4%;
+        height: 30%;
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+
+    .MuiButton-root {
+        background-color: black;
+    }
+}
+
+#class_dropdown {
+    .MuiFormControl-root {
+        min-width: 120px;
+    }
+}

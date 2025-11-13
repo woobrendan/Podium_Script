@@ -1,0 +1,62 @@
+[
+	{
+		"team": "GMG Racing",
+		"driver1firstName": "James",
+		"driver1lastName": "Sofronas",
+		"driver1category": "Bronze",
+		"driver1nationality": "USA",
+		"car": "Audi R8 LMS GT3",
+		"manufacturer": "Audi",
+		"class": "Masters",
+		"number": "14",
+		"series": "GT America",
+		"year": 2025,
+		"created": "2025-02-047T15:35:36Z",
+		"event": "FULL SEASON ENTRY"
+	},
+	{
+		"team": "MISHUMOTORS",
+		"driver1firstName": "Mirco",
+		"driver1lastName": "Schultis",
+		"driver1category": "Bronze",
+		"driver1nationality": "DEU",
+		"car": "Callaway Corvette Z06R GT3",
+		"manufacturer": "Corvette",
+		"class": "Masters",
+		"number": "70",
+		"series": "GT America",
+		"year": 2025,
+		"created": "2025-02-047T15:35:36Z",
+		"event": "FULL SEASON ENTRY"
+	},
+	{
+		"team": "GMG Racing",
+		"driver1firstName": "Kyle",
+		"driver1lastName": "Washington",
+		"driver1category": "Bronze",
+		"driver1nationality": "USA",
+		"car": "Porsche 992 GT3 R",
+		"manufacturer": "Porsche",
+		"class": "Masters",
+		"number": "32",
+		"series": "GT America",
+		"year": 2025,
+		"created": "2025-02-047T15:35:36Z",
+		"event": "FULL SEASON ENTRY"
+	},
+	{
+		"team": "Ricca Autosport",
+		"driver1firstName": "PJ",
+		"driver1lastName": "Groenke",
+		"driver1category": "N/A",
+		"driver1nationality": "CAN",
+		"car": "Hyundai Elantra N1 TC EVO",
+		"manufacturer": "Hyundai",
+		"class": "Masters",
+		"number": "76",
+		"series": "TC America",
+		"year": 2025,
+		"created": "2025-02-047T15:35:36Z",
+		"event": "FULL SEASON ENTRY"
+	}
+]

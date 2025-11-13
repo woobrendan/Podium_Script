@@ -1,0 +1,240 @@
+[
+	{
+		"name": "St. Petersburg Grand Prix",
+		"date": "February 24-26",
+		"startDate": "2/24/2022",
+		"endDate": "5/20/2022",
+		"year": 2022
+	},
+	{
+		"name": "Sonoma Raceway",
+		"date": "April 14-17",
+		"startDate": "4/14/2022",
+		"endDate": "5/20/2022",
+		"year": 2022
+	},
+	{
+		"name": "NOLA Motorsports Park",
+		"date": "May 19-22",
+		"startDate": "5/19/2022",
+		"endDate": "5/20/2022",
+		"year": 2022
+	},
+	{
+		"name": "VIRginia International Raceway",
+		"date": "June 17-19",
+		"startDate": "6/17/2022",
+		"endDate": "5/20/2022",
+		"year": 2022
+	},
+	{
+		"name": "Watkins Glen",
+		"date": "July 22-24",
+		"startDate": "7/22/2022",
+		"endDate": "5/20/2022",
+		"year": 2022
+	},
+	{
+		"name": "Music City Grand Prix",
+		"date": "August 5-7",
+		"startDate": "8/5/2022",
+		"endDate": "5/20/2022",
+		"year": 2022
+	},
+	{
+		"name": "Road America",
+		"date": "August 19-21",
+		"startDate": "8/19/2022",
+		"endDate": "5/20/2022",
+		"year": 2022
+	},
+	{
+		"name": "Sebring International Raceway",
+		"date": "September 23-25",
+		"startDate": "9/23/2022",
+		"endDate": "5/20/2022",
+		"year": 2022
+	},
+	{
+		"name": "Indianapolis Motor Speedway",
+		"date": "October 7-9",
+		"startDate": "10/7/2022",
+		"endDate": "5/20/2022",
+		"year": 2022
+	},
+	{
+		"name": "St. Petersburg Grand Prix",
+		"date": "March 3-5",
+		"startDate": "3/3/2023",
+		"endDate": "3/20/2023",
+		"year": 2023
+	},
+	{
+		"name": "Sonoma Raceway",
+		"date": "April 1-2",
+		"startDate": "4/1/2023",
+		"endDate": "4/5/2023",
+		"year": 2023
+	},
+	{
+		"name": "NOLA Motorsports Park",
+		"date": "April 28-30",
+		"startDate": "4/28/2023",
+		"endDate": "5/2/2023",
+		"year": 2023
+	},
+	{
+		"name": "Circuit of the Americas",
+		"date": "May 19-21",
+		"startDate": "5/19/2023",
+		"endDate": "5/20/2023",
+		"year": 2023
+	},
+	{
+		"name": "VIRginia International Raceway",
+		"date": "June 16-18",
+		"startDate": "6/16/2023",
+		"endDate": "6/22/2023",
+		"year": 2023
+	},
+	{
+		"name": "Music City Grand Prix",
+		"date": "August 4-6",
+		"startDate": "8/4/2023",
+		"endDate": "8/8/2023",
+		"year": 2023
+	},
+	{
+		"name": "Road America",
+		"date": "August 18-20",
+		"startDate": "8/18/2023",
+		"endDate": "8/22/2023",
+		"year": 2023
+	},
+	{
+		"name": "Sebring International Raceway",
+		"date": "September 22-24",
+		"startDate": "9/22/2023",
+		"endDate": "9/27/2023",
+		"year": 2023
+	},
+	{
+		"name": "Indianapolis Motor Speedway",
+		"date": "October 5-7",
+		"startDate": "10/5/2023",
+		"endDate": "10/8/2023",
+		"year": 2023
+	},
+	{
+		"name": "Sonoma Raceway",
+		"date": "April 5 - 7",
+		"startDate": "4/5/2024",
+		"endDate": "4/8/2024",
+		"year": 2024
+	},
+	{
+		"name": "Long Beach Grand Prix",
+		"date": "April 19 - 21",
+		"startDate": "4/19/2024",
+		"endDate": "4/22/2024",
+		"year": 2024
+	},
+	{
+		"name": "Sebring International Raceway",
+		"date": "May 3 - 5",
+		"startDate": "5/3/2024",
+		"endDate": "5/8/2024",
+		"year": 2024
+	},
+	{
+		"name": "Circuit of the Americas",
+		"date": "May 17 -  19",
+		"startDate": "5/17/2024",
+		"endDate": "5/20/2024",
+		"year": 2024
+	},
+	{
+		"name": "Virginia International Raceway",
+		"date": "July 19 - 21",
+		"startDate": "7/19/2024",
+		"endDate": "7/22/2024",
+		"year": 2024
+	},
+	{
+		"name": "Road America",
+		"date": "August 16 - 18",
+		"startDate": "8/16/2024",
+		"endDate": "8/19/2024",
+		"year": 2024
+	},
+	{
+		"name": "Barber Motorsports Park",
+		"date": "September 6 - 8",
+		"startDate": "9/6/2024",
+		"endDate": "9/9/2024",
+		"year": 2024
+	},
+	{
+		"name": "Indianapolis Motor Speedway",
+		"date": "October 4 - 6",
+		"startDate": "10/4/2024",
+		"endDate": "10/7/2024",
+		"year": 2024
+	},
+	{
+		"name": "Sonoma Raceway",
+		"date": "March 28 - 30",
+		"startDate": "3/28/2025",
+		"endDate": "3/30/2025",
+		"year": 2025
+	},
+	{
+		"name": "Long Beach Grand Prix",
+		"date": "April 11- 13",
+		"startDate": "4/11/2025",
+		"endDate": "4/13/2025",
+		"year": 2025
+	},
+	{
+		"name": "Circuit of the Americas",
+		"date": "April 25 - 27",
+		"startDate": "4/25/2025",
+		"endDate": "4/27/2025",
+		"year": 2025
+	},
+	{
+		"name": "Sebring International Raceway",
+		"date": "May 16 - 18",
+		"startDate": "5/16/2025",
+		"endDate": "5/18/2025",
+		"year": 2025
+	},
+	{
+		"name": "Virginia International Raceway",
+		"date": "July 18 - 20",
+		"startDate": "7/18/2025",
+		"endDate": "7/20/2025",
+		"year": 2025
+	},
+	{
+		"name": "Road America",
+		"date": "August 15 - 17",
+		"startDate": "8/15/2025",
+		"endDate": "8/17/2025",
+		"year": 2025
+	},
+	{
+		"name": "Barber Motorsports Park",
+		"date": "September 5 - 7",
+		"startDate": "9/5/2025",
+		"endDate": "9/7/2025",
+		"year": 2025
+	},
+	{
+		"name": "Indianapolis Motor Speedway",
+		"date": "October 16 - 19",
+		"startDate": "10/16/2025",
+		"endDate": "10/19/2025",
+		"year": 2025
+	}
+]

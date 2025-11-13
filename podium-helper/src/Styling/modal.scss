@@ -1,0 +1,128 @@
+#edit_modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 70vh;
+    min-height: 350px;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+    background-color: red;
+    color: white;
+    font-weight: 400;
+
+    select {
+        min-height: 30px;
+        font-size: large;
+    }
+
+    input {
+        min-height: 50%;
+    }
+
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+
+        &#dropdown_class, &#dropdown_fia {
+            min-width: 10%;
+        }
+    }
+
+    #entry_info {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input_driver_container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 2%;
+        
+        .input_driver_container_1,
+        .input_driver_container_2,
+        .input_driver_container_3 {
+            display: flex;
+            flex-direction: column;
+            gap: 10%;
+        }
+
+        .editModal_input {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &.driver_1 {
+            margin-bottom: 2%;
+            .input_driver_container_1 {
+                display: flex;
+                justify-content: space-around;
+                gap: 10%;
+                width: 100%;
+            }
+        }
+
+        &.driver_2,
+        .driver_3 {
+            min-height: 40%;
+
+            section {
+                display: flex;
+                gap: 10%;
+                flex-direction: column;
+            }
+        }
+    }
+
+    .input_vehicle_container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        #class_dropdown {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            min-height: 50px;
+        }
+
+        .input_classification {
+            width: 10%;
+        }
+
+        .input_number {
+            width: 15%;
+        }
+
+        .input_vehicle {
+            min-width: 250px;
+        }
+
+        .editModal_input {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .MuiButton-root {
+        background-color: black;
+
+        &.edit_modal_update {
+            margin-bottom: 2%;
+        }
+
+        &.edit_modal_delete {
+            position: absolute;
+            left: 2%;
+            top: 5%;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+[
+	{
+		"name": "GT World Challenge America",
+		"class": ["Pro", "Pro-Am", "Am"]
+	},
+	{
+		"name": "Pirelli GT4 America",
+		"class": ["Silver", "Pro-Am", "Am"]
+	},
+	{
+		"name": "GT America",
+		"class": ["SRO3", "GT4", "GT2", "Masters"]
+	},
+	{
+		"name": "TC America",
+		"class": ["TC", "Masters"]
+	},
+	{
+		"name": "Intercontinental GT Challenge",
+		"class": ["Pro", "Pro-Am", "Am", "Independent Cup"]
+	},
+	{
+		"name": "Toyota GR Cup",
+		"class": ["Am", "Female", "Legend"]
+	},
+	{
+		"name": "McLaren Trophy",
+		"class": ["Pro", "Pro-Am", "Am", "Pro-Am PC", "Am PC"]
+	}
+]
