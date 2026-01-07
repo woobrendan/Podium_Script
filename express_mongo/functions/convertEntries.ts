@@ -18,8 +18,12 @@ const convertEntry = (entry: ApiEntryInterface) => {
 		created: entry.dateCreated,
 	};
 
+	const carPathSet = new Set(["tcCarMakeModel", "gt4aCarMakeModel", "gtaCarMakeModel", "gtwcCarMakemodel"]);
+
 	for (const label of labels) {
 		for (const field of entry.fieldData) {
+			const basePath = field.path.split(".")[0];
+
 			if (label === "Championship / Class" && field.path.includes("carType.")) {
 				newEntry["class"] = convertClassif(field.label);
 				break;
@@ -33,10 +37,12 @@ const convertEntry = (entry: ApiEntryInterface) => {
 				break;
 			}
 
+			// handle logic where raw data is contained in key 'path'
 			if (
 				(label === "driver1nationality" && field.path.includes("nationality2.")) ||
 				(label === "driver2nationality" && field.path.includes("nationality32.")) ||
-				(label === "team" && field.path.includes("temName."))
+				(label === "team" && field.path.includes("temName.")) ||
+				(label === "team" && field.path.includes("teamName2."))
 			) {
 				newEntry[label] = getFieldPathVal(field);
 				break;
@@ -51,10 +57,18 @@ const convertEntry = (entry: ApiEntryInterface) => {
 				break;
 			}
 
-			if (label === "car" && carTypes.includes(field.label)) {
-				const carVal = field.value as string;
-				const car = vehicles[carVal] || `${carVal} not in vehicle list`;
-				newEntry.car = car;
+			// if (label === "car" && carTypes.includes(field.label)) {
+			// 	const carVal = field.value as string;
+			// 	const car = vehicles[carVal] || `${carVal} not in vehicle list`;
+			// 	newEntry.car = car;
+			// 	newEntry.manufacturer = getManuf(car);
+			// 	break;
+			// }
+
+			// handles new for 2026 logic regarding getting the vehicle value and manuf
+			if (label === "car" && carPathSet.has(basePath)) {
+				const car = field.label;
+				newEntry[label] = car;
 				newEntry.manufacturer = getManuf(car);
 				break;
 			}
