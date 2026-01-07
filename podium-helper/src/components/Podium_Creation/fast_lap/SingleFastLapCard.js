@@ -39,8 +39,6 @@ const SingleFastLapCard = ({ classif, resultNum, onSubmit, entries }) => {
 			);
 		});
 
-	console.log("driver", driverOptions);
-
 	return (
 		<section className="single_fast_lap_container single_award">
 			<h3>{classif}</h3>
