@@ -126,17 +126,16 @@ const Podium = () => {
 					<HardChargeContainer series={results.series} onSubmit={handleRacePodiumSubmit} />
 				</div>
 			)}
-			{results.fastLap1 && (
-				<Button
-					variant="contained"
-					color="success"
-					id="podium__submit_all"
-					onClick={handleFinalSubmit}
-					data-testid="podium__submit_all"
-				>
-					Submit All
-				</Button>
-			)}
+
+			<Button
+				variant="contained"
+				color="success"
+				id="podium__submit_all"
+				onClick={handleFinalSubmit}
+				data-testid="podium__submit_all"
+			>
+				Submit All
+			</Button>
 		</section>
 	);
 };
