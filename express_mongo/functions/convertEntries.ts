@@ -51,15 +51,18 @@ const convertEntry = (entry: ApiEntryInterface) => {
 
 			if (label === field.label) {
 				const fieldVal = field.value as string;
-				if (label === "Championship / Class") {
-					newEntry["class"] = convertClassif(fieldVal);
-					break;
-				}
+
 				if (label === "Team Sponsors - Please seperate each Sponsor with a comma") {
 					newEntry.sponsors = fieldVal;
 					break;
 				}
 				if (label === "Car Series") {
+					const val = fieldVal.toLowerCase();
+					if (val.includes("tc")) {
+						newEntry["class"] = "TC";
+						newEntry.series = "TC America";
+					}
+
 					const series = convertSeries(fieldVal);
 					newEntry.series = series;
 					if (series === "Toyota GR Cup") {
@@ -67,8 +70,13 @@ const convertEntry = (entry: ApiEntryInterface) => {
 						newEntry.manufacturer = "Toyota";
 						newEntry["class"] = "Am";
 					}
-					if (series === "TC America") {
-						newEntry["class"] = "TC";
+
+					break;
+				}
+				if (label === "Championship / Class") {
+					const cls = convertClassif(fieldVal);
+					if (cls) {
+						newEntry.class = cls;
 					}
 					break;
 				}
