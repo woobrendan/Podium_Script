@@ -95,6 +95,7 @@ const convertClassif = (classif: string): string | undefined => {
 		sro3: "SRO3",
 		gt4: "GT4",
 		gt2: "GT2",
+		cup: "Cup",
 		proAm: "Pro-Am",
 		proPro: "Pro",
 		am: "Am",
@@ -117,7 +118,7 @@ const getFieldPathVal = (field: FieldData) => {
 const getDriverName = (
 	driver: string, //driver1 or driver2
 	field: FieldData,
-	entry: { [key: string]: any }
+	entry: { [key: string]: any },
 ) => {
 	const name = getFieldPathVal(field);
 	const nameArr = name.split(" ");
