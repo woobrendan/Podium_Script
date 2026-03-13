@@ -26,7 +26,7 @@ const EventSearch = ({ component, getValue }) => {
 				name: "FULL SEASON ENTRY",
 				date: "Oct 11",
 				startDate: "11/3/2025",
-				year: 2025,
+				year: 2026,
 			},
 			...currentYearEvents,
 		];
